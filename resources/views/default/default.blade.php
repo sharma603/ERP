@@ -20,7 +20,6 @@
     @yield('cutome-js')
 </head>
 
-
 <body>
     @yield('body')
     <!-- this is Jquery CDN from google -->

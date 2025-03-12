@@ -1,35 +1,64 @@
 @charset "UTF-8";
 .welcome_form{
-   
-    border: 1px solid red;
-    margin-top: 10px;
+    border: px solid red;
+    margin-top: 0px;
+
 }
-.step-one{
-    width: auto;
-    height: auto;
+.step-one, .step-two,step-three,step-four{
+    width: 90vh;
+    height: 600px;
     border: 1px solid rgb(193, 185, 185);
     box-shadow: 0px 2px 8px rgb(193, 185, 185);
-    padding: 10px;
+    padding: 8px;
     font-size: 16px;
+    border-radius: 5px;
 }
 .form-group{
-    padding: 10px;
+    padding: 5px;
 }
 .step-one label{
     font-family: sans-serif;
-    font-size: 16px;
-    margin-left: 5px;
-    padding-top: 5px;
-    padding-bottom: 8px;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 8px;
+    padding-bottom: px;
 }
 .step-one input:focus{
     outline: none;
     box-shadow: none;
+    
+}
+.step-two input:focus{
+    outline: none;
+    box-shadow: none;
+    
+}
+.step-three input:focus{
+    outline: none;
+    box-shadow: none;
+    
+}
+.step-four input:focus{
+    outline: none;
+    box-shadow: none;
+    
 }
 
 .welcome-form-name{
 border-top: none;
 border-left: none;
 border-right: none;
+}
 
+.next-btn{
+    width: 100px;
+}
+.step-four-submit-btn{
+    background-color: orange;
+    color:white;
+
+
+}
+.step-four-submit-btn:hover {
+    background-color: #ffcc00; /* Hover background color */
 }
